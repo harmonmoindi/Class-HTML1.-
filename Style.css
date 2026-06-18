@@ -1,0 +1,20 @@
+ .search {
+            --padding: 24px;
+            width: max-content;
+            display: flex;
+            align-items: center;
+            padding: var(--padding);
+            border-radius: 28px;
+            background: #f6f6f6;
+            width: 800px;
+            height: 10px;
+ }
+ .search-input{
+    font-size: 14px;
+    font-family: 'Lexend', sans-serif;
+    color: #333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    flex: 1;
+}
